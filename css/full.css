@@ -6,14 +6,22 @@
 
 body {
     margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: rgba(255,255,255,0);
+    height: 100%;
 }
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .full {
-    background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+    background: url('../img/DOT_0010_blur.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+#logo {
+  display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
